@@ -2,12 +2,46 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fcaafcf-d512-40db-b5e7-b8a2a68d22f7" name="Default Changelist" comment="Angular forms">
-      <change afterPath="$PROJECT_DIR$/.idea/QSM.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2/angular-form-types-example" beforeDir="false" afterPath="$PROJECT_DIR$/2/angular-form-types-example" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2/angular-form-example/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2/angular-form-example/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2/angular-form-example/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2/angular-form-example/angular.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2/angular-form-example/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2/angular-form-example/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2/angular-form-example/src/app/app.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2/angular-form-example/src/app/app.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2/angular-form-example/src/app/app.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2/angular-form-example/src/app/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2/angular-form-example/src/app/reactive-form/components/reactive-form/reactive-form.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2/angular-form-example/src/app/reactive-form/components/reactive-form/reactive-form.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2/angular-form-example/src/app/reactive-form/components/reactive-form/reactive-form.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2/angular-form-example/src/app/shared/models/forms.consts.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2/angular-form-example/src/app/shared/models/forms.models.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2/angular-form-example/src/app/template-form/components/template-form/template-form.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2/angular-form-example/src/app/template-form/components/template-form/template-form.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2/angular-form-example/src/app/template-form/components/template-form/template-form.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2/angular-form-example/src/app/third-party-form/components/matirial-form/material-form.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2/angular-form-example/src/app/third-party-form/components/matirial-form/material-form.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2/angular-form-example/src/app/third-party-form/components/matirial-form/material-formcomponent.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2/angular-form-example/src/app/third-party-form/material.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2/angular-form-example/src/app/third-party-form/third-party-form.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2/angular-form-example/src/assets/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2/angular-form-example/src/browserslist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2/angular-form-example/src/environments/environment.prod.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2/angular-form-example/src/environments/environment.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2/angular-form-example/src/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2/angular-form-example/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2/angular-form-example/src/karma.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2/angular-form-example/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2/angular-form-example/src/polyfills.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2/angular-form-example/src/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2/angular-form-example/src/test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2/angular-form-example/src/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2/angular-form-example/src/tsconfig.spec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2/angular-form-example/src/tslint.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2/angular-form-example/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2/angular-form-example/tslint.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <list id="0b895e64-cb92-4cf6-b9c1-082d40700924" name="Revert &quot;Angular forms&quot;" comment="Revert &quot;Angular forms&quot;&#10;&#10;This reverts commit c976c9aa" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -20,7 +54,22 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/2/angular-form-example/src/app/shared/models/forms.consts.ts">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/2/angular-form-example/src/styles.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -72,6 +121,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -84,11 +134,16 @@
               <item name="QSM" type="462c0819:PsiDirectoryNode" />
               <item name="2" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="QSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QSM" type="462c0819:PsiDirectoryNode" />
+              <item name="2" type="462c0819:PsiDirectoryNode" />
+              <item name="angular-form-example" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -96,13 +151,16 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="editor.config.ad.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/2/angular-form-example" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.1.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\dev\msbit\QSM\2\angular-form-example" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\dev\msbit\QSM\2\angular-form-types-example" />
     </key>
@@ -147,6 +205,7 @@
       <option name="presentableId" value="Default" />
       <updated>1557697609711</updated>
       <workItem from="1557697611378" duration="6048000" />
+      <workItem from="1557704702575" duration="363000" />
     </task>
     <task id="LOCAL-00001" summary="Angular forms">
       <created>1557702168100</created>
@@ -190,25 +249,26 @@
       <option name="project" value="LOCAL" />
       <updated>1557704390567</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Angular forms">
+      <created>1557704749962</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1557704749962</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6048000" />
+    <option name="totallyTimeSpent" value="6411000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="2062" height="1126" extended-state="6" />
     <layout>
-      <window_info id="npm" sideWeight="0.2867868" side_tool="true" visible="true" weight="0.24987654" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7132132" visible="true" weight="0.24987654" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7132132" visible="true" weight="0.24987654" />
       <window_info id="Structure" order="1" sideWeight="0.2867868" side_tool="true" weight="0.24987654" />
-      <window_info anchor="bottom" id="TypeScript" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" sideWeight="0.49925926" visible="true" weight="0.32997987" />
-      <window_info anchor="bottom" id="Terminal" sideWeight="0.49925926" weight="0.32997987" />
-      <window_info anchor="bottom" id="Event Log" sideWeight="0.50074077" side_tool="true" visible="true" weight="0.32997987" />
-      <window_info anchor="bottom" id="Messages" sideWeight="0.4997531" weight="0.32997987" />
+      <window_info id="npm" order="2" sideWeight="0.2867868" side_tool="true" visible="true" weight="0.24987654" />
+      <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4997531" weight="0.32997987" />
@@ -216,6 +276,12 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TypeScript" order="8" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49876544" visible="true" weight="0.32997987" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5012346" side_tool="true" visible="true" weight="0.32997987" />
+      <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.49876544" weight="0.32997987" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49925926" weight="0.32997987" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -236,64 +302,33 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Angular forms" />
     <MESSAGE value="Revert &quot;Angular forms&quot;&#10;&#10;This reverts commit a863e9e5" />
     <MESSAGE value="Revert &quot;Angular forms&quot;&#10;&#10;This reverts commit d35d06f3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Revert &quot;Angular forms&quot;&#10;&#10;This reverts commit d35d06f3" />
+    <MESSAGE value="Angular forms" />
+    <option name="LAST_COMMIT_MESSAGE" value="Angular forms" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/2/angular-form-types-example/gg.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2/angular-form-types-example/src/app/reactive-form/components/reactive-form/reactive-form.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="10" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2/angular-form-types-example/src/app/reactive-form/components/reactive-form/reactive-form.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2/angular-form-types-example/src/app/app.component.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="41" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2/angular-form-types-example/src/app/app.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="15" lean-forward="true" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2/angular-form-types-example/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor>
-            <caret column="15" selection-start-column="15" selection-end-column="15" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2/angular-form-types-example/src/app/app.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/2/angular-form-types-example/gg.ts" />
+    <entry file="file://$PROJECT_DIR$/2/angular-form-types-example/src/app/reactive-form/components/reactive-form/reactive-form.component.html" />
+    <entry file="file://$PROJECT_DIR$/2/angular-form-types-example/src/app/reactive-form/components/reactive-form/reactive-form.component.ts" />
+    <entry file="file://$PROJECT_DIR$/2/angular-form-types-example/src/app/app.component.css" />
+    <entry file="file://$PROJECT_DIR$/2/angular-form-types-example/src/app/app.component.html" />
+    <entry file="file://$PROJECT_DIR$/2/angular-form-types-example/README.md" />
+    <entry file="file://$PROJECT_DIR$/2/angular-form-types-example/src/app/app.component.ts" />
     <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="213">
           <caret line="6864" column="26" selection-start-line="6864" selection-start-column="10" selection-end-line="6864" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2/angular-form-example/src/app/shared/models/forms.consts.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2/angular-form-example/src/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
         </state>
       </provider>
     </entry>

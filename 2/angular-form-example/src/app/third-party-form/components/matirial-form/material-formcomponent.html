@@ -1,0 +1,88 @@
+<!--suppress ALL -->
+<div class="container">
+  <h1> Angular Material form </h1>
+  <form [formGroup]="form">
+    <fieldset>
+        <mat-form-field>
+        <input type="text"
+               name="firstName"
+               formControlName="firstName"
+               matInput
+               placeholder="First Name"
+        >
+        <mat-error class="form-control-feedback"
+             *ngIf="form.get('firstName').hasError('required')">
+          First name is required
+        </mat-error>
+        </mat-form-field>
+
+
+      <mat-form-field>
+        <input type="text"
+               name="lastName"
+               formControlName="lastName"
+               matInput
+               placeholder="Last Name"
+               >
+        <mat-error *ngIf="form.get('lastName').hasError('required')">
+          Last name is required
+        </mat-error>
+      </mat-form-field>
+    </fieldset>
+    <mat-form-field>
+      <input type="email"
+             name="email"
+             formControlName="email"
+             pattern="[^ @]*@[^ @]*"
+             matInput
+             placeholder="Email">
+      <mat-error
+           *ngIf="form.get('email').hasError('required')">Email is required
+      </mat-error>
+      <mat-error
+        *ngIf="form.get('email').hasError('pattern')">
+        Email must contain at least the @ character
+      </mat-error>
+
+    </mat-form-field>
+
+
+    <mat-form-field>
+      <input type="password"
+             name="password"
+             formControlName="password"
+             matInput
+             placeholder="Password"
+      >
+      <mat-error
+           *ngIf="form.get('password').hasError('required')">
+        Password is required
+      </mat-error>
+      <mat-error
+        *ngIf="form.get('password').hasError('minlength')">
+        Password must be at least 8 characters long
+      </mat-error>
+    </mat-form-field>
+
+    <mat-form-field>
+    <mat-label>Language</mat-label>
+    <mat-select
+      name="language"
+      formControlName="language">
+      <mat-option value="">Please select a language</mat-option>
+      <mat-option *ngFor="let lang of langs"
+                  [value]="lang">{{lang}}
+      </mat-option>
+    </mat-select>
+  </mat-form-field>
+
+    <button type="submit"
+            mat-raised-button color="primary"
+            [disabled]="!form.valid"
+    (click)="onSubmit()"
+    >Submit
+    </button>
+
+    <pre>{{form.getRawValue() | json}}</pre>
+  </form>
+</div>
