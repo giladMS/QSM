@@ -7,8 +7,9 @@
       <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2/angular-form-types-example/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/2/angular-form-types-example/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2/angular-form-types-example" beforeDir="false" afterPath="$PROJECT_DIR$/2/angular-form-types-example" afterDir="false" />
     </list>
+    <list id="0b895e64-cb92-4cf6-b9c1-082d40700924" name="Revert &quot;Angular forms&quot;" comment="Revert &quot;Angular forms&quot;&#10;&#10;This reverts commit c976c9aa" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -19,44 +20,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2/angular-form-types-example/src/app/app.component.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="15" lean-forward="true" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="6864" column="26" selection-start-line="6864" selection-start-column="10" selection-end-line="6864" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/2/angular-form-types-example/src/app/app.component.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2/angular-form-types-example/src/app/app.component.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="41" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -78,7 +42,7 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/2/angular-form-types-example" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GithubProjectSettings">
     <option name="CREATE_PULL_REQUEST_DEFAULT_BRANCH" value="master" />
@@ -120,19 +84,6 @@
               <item name="QSM" type="462c0819:PsiDirectoryNode" />
               <item name="2" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="QSM" type="b2602c69:ProjectViewProjectNode" />
-              <item name="QSM" type="462c0819:PsiDirectoryNode" />
-              <item name="2" type="462c0819:PsiDirectoryNode" />
-              <item name="angular-form-types-example" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="QSM" type="b2602c69:ProjectViewProjectNode" />
-              <item name="QSM" type="462c0819:PsiDirectoryNode" />
-              <item name="2" type="462c0819:PsiDirectoryNode" />
-              <item name="angular-form-types-example" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -141,6 +92,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="ChangesTree.GroupingKeys" value="directory&#10;repository" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="editor.config.ad.shown" value="true" />
@@ -194,7 +146,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1557697609711</updated>
-      <workItem from="1557697611378" duration="5462000" />
+      <workItem from="1557697611378" duration="6048000" />
     </task>
     <task id="LOCAL-00001" summary="Angular forms">
       <created>1557702168100</created>
@@ -217,29 +169,49 @@
       <option name="project" value="LOCAL" />
       <updated>1557703813158</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Angular forms">
+      <created>1557703993236</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1557703993236</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Revert &quot;Angular forms&quot;&#10;&#10;This reverts commit a863e9e5">
+      <created>1557704364119</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1557704364119</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Revert &quot;Angular forms&quot;&#10;&#10;This reverts commit d35d06f3">
+      <created>1557704390567</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1557704390567</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5462000" />
+    <option name="totallyTimeSpent" value="6048000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="2062" height="1126" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="npm" sideWeight="0.2867868" side_tool="true" visible="true" weight="0.24987654" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7132132" visible="true" weight="0.24987654" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7132132" visible="true" weight="0.24987654" />
       <window_info id="Structure" order="1" sideWeight="0.2867868" side_tool="true" weight="0.24987654" />
       <window_info anchor="bottom" id="TypeScript" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" sideWeight="0.4997531" weight="0.32997987" />
-      <window_info anchor="bottom" id="Terminal" sideWeight="0.4997531" weight="0.32997987" />
-      <window_info anchor="bottom" id="Event Log" sideWeight="0.50024694" side_tool="true" visible="true" weight="0.32997987" />
+      <window_info anchor="bottom" id="Version Control" sideWeight="0.49925926" visible="true" weight="0.32997987" />
+      <window_info anchor="bottom" id="Terminal" sideWeight="0.49925926" weight="0.32997987" />
+      <window_info anchor="bottom" id="Event Log" sideWeight="0.50074077" side_tool="true" visible="true" weight="0.32997987" />
       <window_info anchor="bottom" id="Messages" sideWeight="0.4997531" weight="0.32997987" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4997531" visible="true" weight="0.32997987" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4997531" weight="0.32997987" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -252,9 +224,22 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="SHOW_OTHER_BRANCHES" value="true" />
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Angular forms" />
-    <option name="LAST_COMMIT_MESSAGE" value="Angular forms" />
+    <MESSAGE value="Revert &quot;Angular forms&quot;&#10;&#10;This reverts commit a863e9e5" />
+    <MESSAGE value="Revert &quot;Angular forms&quot;&#10;&#10;This reverts commit d35d06f3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Revert &quot;Angular forms&quot;&#10;&#10;This reverts commit d35d06f3" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/2/angular-form-types-example/gg.ts">
@@ -288,13 +273,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="6864" column="26" selection-start-line="6864" selection-start-column="10" selection-end-line="6864" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/2/angular-form-types-example/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -309,6 +287,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="6864" column="26" selection-start-line="6864" selection-start-column="10" selection-end-line="6864" selection-end-column="26" />
         </state>
       </provider>
     </entry>
